@@ -5,6 +5,7 @@ pipeline {
   agent {
     label "jenkins-maven"
   }
+  
   environment {
     DEPLOY_NAMESPACE = "jx-staging"
   }
